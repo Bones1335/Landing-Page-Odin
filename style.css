@@ -1,4 +1,5 @@
 body {
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
 }
@@ -30,6 +31,13 @@ li a {
     text-decoration: none;
     font-size: 18px;
     color: #e5e7eb;
+}
+
+img.card {
+    border: 5px solid #3882f6;
+    border-radius: 25px;
+    width: 100px;
+    height: 100px;
 }
 
 .footer {

@@ -74,14 +74,30 @@ div h2 {
 .products-title {
     display: flex;
     justify-content: center;
+    padding: 0 25px;
 }
 
 .products {
     display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 50px;
+    padding: 25px;
+}
+
+.product-1,
+.product-2,
+.product-3,
+.product-4 {
+    width: 250px;
 }
 
 .products .subtext {
     color: black;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 img {
@@ -94,8 +110,8 @@ img {
 img.card {
     border: 5px solid #3882f6;
     border-radius: 25px;
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 200px;
 }
 
 .footer {

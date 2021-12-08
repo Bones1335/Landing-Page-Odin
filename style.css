@@ -13,7 +13,7 @@ body {
 }
 
 .left {
-
+    /*color: white;*/
 }
 
 .right {
@@ -28,4 +28,12 @@ ul.nav-bar {
 
 li a {
     text-decoration: none;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.footer {
+    display:flex;
+    justify-content: center;
+    align-items: center;
 }

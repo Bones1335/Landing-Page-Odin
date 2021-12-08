@@ -9,7 +9,7 @@ body {
 .header {
     display: flex;
     background-color: #1f2937;
-    /*padding: 25px;*/
+    padding: 0 25px;
 }
 
 h1 {
@@ -50,6 +50,8 @@ li a {
     background-color: #1f2937;
     display: flex;
     justify-content: flex-start;
+    padding: 25px;
+    gap: 20px;
 }
 
 .top .top-text {
@@ -58,12 +60,24 @@ li a {
 
 div h2 {
     color: #f9faf8;
-    font-weight: extra-bold;
+    font-weight: 1000;
     font-size: 48px;
+    margin: 0;
 }
 
 .subtext {
     color: #f9faf8;
+    font-size: 18px;
+    margin: 0;
+}
+
+.products-title {
+    display: flex;
+    justify-content: center;
+}
+
+.products {
+    display: flex;
 }
 
 .products .subtext {
@@ -73,6 +87,8 @@ div h2 {
 img {
     width: 500px;
     height: 250px;
+    flex-shrink: 0;
+    align-self: center;
 }
 
 img.card {
